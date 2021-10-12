@@ -22,15 +22,13 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.0.3</version>
 		</dependency>
-
-
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
-			<scope>test</scope>
-		</dependency>
 		
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>WekaExcel</artifactId>
+			<version>1.0.8</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.relevantcodes</groupId>
 			<artifactId>extentreports</artifactId>
@@ -41,13 +39,15 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/WekaExcel -->
-<dependency>
-    <groupId>nz.ac.waikato.cms.weka</groupId>
-    <artifactId>WekaExcel</artifactId>
-    <version>1.0.8</version>
-</dependency>
-		
+
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<scope>test</scope>
+		</dependency>
+
 		
 
 	</dependencies>
